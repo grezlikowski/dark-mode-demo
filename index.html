@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darkmode test</title>
+    <style>
+        body {height: 100vh; display: flex; align-items: center; justify-content: center}
+        picture, img {max-width: 90%}
+    </style>
+</head>
+<body>
+    <picture>
+        <source srcset="dark.png" media="(prefers-color-scheme: dark)">
+        <img src="light.png" alt="screenshot">
+    </picture>
+</body>
+</html>
